@@ -14,7 +14,7 @@ hello: hello.cr
 clean:
 	$(RM) hello
 
-test:
+test: hello
 	$(CC) $(RFLAGS) hello_spec.cr
 
 tests: test
